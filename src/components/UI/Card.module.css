@@ -1,0 +1,17 @@
+.card {
+    position: relative;
+    border: 1px solid #d1d1d1;
+    box-shadow: 2px 2px 2px #00000059;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    width: 100%;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 70%;
+        left: 15%;
+    }
+}
